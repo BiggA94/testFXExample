@@ -1,8 +1,5 @@
 package application;
 
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 import org.junit.*;
@@ -38,9 +35,27 @@ public class testApplication extends ApplicationTest {
 
 	@Test
 	public void testButton() {
+		clickOn("#button2");
 		clickOn("#button");
 
 		verifyThat("#textField", NodeMatchers.hasText("Button clicked"));
+	}
+	
+	@Test
+	public void testButton2() {
+		clickOn("#button2");
+		verifyThat("#textField", NodeMatchers.hasText(""));
+	}
+	
+	@Test
+	public void bla(){
+		clickOn("#button2");
+		clickOn("#button");
+		
+		clickOn("Button clicked");
+		
+		clickOn("Label");
+		
 	}
 
 }

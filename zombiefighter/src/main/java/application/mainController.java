@@ -5,6 +5,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.event.ActionEvent;
+import javafx.scene.layout.BorderPane;
 
 public class mainController {
 
@@ -14,6 +15,7 @@ public class mainController {
 	Label label;
 	@FXML
 	TextField textField;
+	@FXML BorderPane root;
 
 	@FXML
 	private void initiaize() {
