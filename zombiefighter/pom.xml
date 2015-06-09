@@ -3,7 +3,6 @@
   <groupId>de.uks.se1.ss15.dtritus</groupId>
   <artifactId>zombiefighter</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>ZombieFighter-TeamD</name>
   <issueManagement>
   	<system>jira</system>
   	<url>se1.cs.uni-kassel.de/jira</url>
@@ -22,4 +21,5 @@
   		<scope>test</scope>
   	</dependency>
   </dependencies>
+  <name>TestFXTest</name>
 </project>

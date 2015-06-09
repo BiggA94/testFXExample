@@ -1,4 +1,4 @@
-package zombiefighter.application;
+package application;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -11,6 +11,7 @@ import org.testfx.framework.junit.ApplicationTest;
 import org.junit.Test;
 import org.testfx.matcher.base.NodeMatchers;
 
+import application.Main;
 import static org.testfx.api.FxAssert.verifyThat;
 
 public class testApplication extends ApplicationTest {
