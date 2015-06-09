@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane id="root" fx:id="root" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zombiefighter.application.mainController">
+   <center>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <Button id="button" fx:id="button" mnemonicParsing="false" onAction="#button_action" text="button" />
+            <Label id="label" fx:id="label" text="Label" />
+            <TextField id="textField" fx:id="textField" />
+         </children>
+      </HBox>
+   </center>
+</BorderPane>
